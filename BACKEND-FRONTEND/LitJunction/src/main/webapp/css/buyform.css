@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 11, 2024, 6:45:26 PM
+    Author     : kienm
+*/
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: no-drop;
+}
+
+.popup .popuptext {
+    visibility: hidden;
+    width: 800%;
+    background-color: aqua;
+    color: crimson;
+    text-align: center;
+    border-radius: 6px;
+    border: 3px solid purple;
+    padding: 100px 0;
+    position: absolute;
+    z-index: 1;
+    top: 400%;
+    left: -100%;
+    right: 20%;
+}
+
+.popup .show {
+  visibility: visible;
+  
+}

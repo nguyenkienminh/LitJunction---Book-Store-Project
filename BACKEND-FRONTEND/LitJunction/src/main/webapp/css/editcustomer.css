@@ -1,0 +1,127 @@
+/* customerform.css */
+
+
+
+@keyframes rgbChange {
+  0% {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 0);
+  }
+  25% {
+    background-color: rgb(255, 255, 0);
+    color: rgb(0, 255, 0);
+  }
+  50% {
+    background-color: rgb(0, 252, 25);
+    color: rgb(0, 21, 255);
+  }
+  75% {
+    background-color: rgb(0, 21, 255);
+    color: rgb(255, 0, 255);
+  }
+  100% {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+body {
+  font-family: Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 20px;
+}
+
+form {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #cbcbcb;
+  background: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgb(0, 0, 0);
+}
+
+tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+td {
+  display: flex;
+  padding: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #cbcbcb;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+/* Table styling */
+table {
+  width: 70%;
+  border-collapse: collapse;
+}
+
+.td:first-child {
+  width: 30%; /* Adjust as needed */
+  text-align: right;
+}
+
+/* Radio buttons */
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* Submit button */
+input[type="submit"] {
+  display: block;
+  background-color: rgb(41, 146, 224);
+  color: white;
+  padding: 10px 20px;
+  margin: 20px auto;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Sealed Dark magic do not break */
+
+/* .welcome {
+  text-align: center;
+  padding: 2%;
+  margin-bottom: 20px;
+  font-size: 150%;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  /* gradient*/
+/* background: linear-gradient(
+    180deg,
+    rgba(167, 215, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  ); */
+/* animation: rgbChange 100ms infinite; */
+/*}*/

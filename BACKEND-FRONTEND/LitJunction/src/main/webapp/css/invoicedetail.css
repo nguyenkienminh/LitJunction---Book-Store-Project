@@ -1,0 +1,163 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 18, 2024, 1:09:04 AM
+    Author     : LENOVO
+*/
+
+body {
+    background-image: url(../images/bg-admin.jpg); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.textadmin {
+  text-align: center;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 25px;
+  height: 50px;
+  padding-top: 0px;
+  padding-bottom: 1px;
+  color: #e0dfdc;
+  background-color: #333;
+  letter-spacing: .1em;
+  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+}
+
+
+
+
+.headeradmin a {
+   float: left; 
+   display: block; 
+   color: #fff;
+   text-align: center; 
+   padding: 14px 16px; 
+   text-decoration: none; 
+   justify-content: center;
+}
+
+.headeradmin a.hover {
+   background-color: #555;
+}
+
+.headeradmin a.active {
+   background-color: #4CAF50; 
+   color: white; 
+}
+
+.headeradmin {
+   background-color: #444343; 
+   overflow: hidden;   
+}
+
+.headeradmin div a:first-child {
+   font-family: 'Pacifico', cursive; 
+    font-size: 36px;
+    color: #3498db; 
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: color 0.3s ease-in-out;
+}
+
+.headeradmin div {
+    display: flex;
+    align-items: center;  
+}
+
+h1 {
+text-align: center;
+align-items: center;
+color: #ff6e7f;
+}
+
+
+form input {
+    width: 150px;
+}
+
+form input:first-child {
+    width: 450px;
+}
+form input {
+    height: 25px;
+}
+
+form {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: center;   
+    
+}
+
+table {
+    font-size: 20px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 0.5px solid chocolate;
+}
+
+th, td {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+a.hover {
+    text-decoration: underline;
+}
+
+button {
+    padding: 8px 12px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+#submit {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+#submit:hover {
+    background-color: #45a049;
+}
+
+input:focus::placeholder {
+  color: red;
+}
+input:focus{
+    color: red;
+}
+
+.total p {
+    float: right;
+    font-size: 40px;
+    margin-right: 20px;
+}
