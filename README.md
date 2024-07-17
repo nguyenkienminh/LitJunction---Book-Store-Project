@@ -44,8 +44,13 @@ Admin and Customer
 - Account admin management (link + separate page)
 - Insert, delete, update products
 - Statastics:
-
   - Amount of book import
   - Amount of book sold
   - Amount of money
   - Manage user accounts
+ 
+#### System Design:
+
+- Front-end: HTML,CSS
+- Back-end: Java Servlet MS SQL Server, MVC Layer Architecture
+- UI Design: Canva
