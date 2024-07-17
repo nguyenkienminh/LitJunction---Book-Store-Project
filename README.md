@@ -49,7 +49,7 @@ Admin and Customer
   - Amount of money
   - Manage user accounts
  
-#### System Design:
+### System Design:
 
 - Front-end: HTML,CSS
 - Back-end: Java Servlet MS SQL Server, MVC Layer Architecture
