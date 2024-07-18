@@ -51,7 +51,7 @@ Admin and Customer
  
 ### System Design:
 
-- Front-end: HTML, CSS
+- Front-end: HTML, CSS, JavaScript
 - Back-end: Java Servlet, MS SQL Server, MVC Layer Architecture
 - UI Design: Canva
 
