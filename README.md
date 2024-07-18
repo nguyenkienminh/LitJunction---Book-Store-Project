@@ -1,4 +1,4 @@
-# Team: TryHard
+# Team: LitJunction
 
 ### MEMBER:
 
