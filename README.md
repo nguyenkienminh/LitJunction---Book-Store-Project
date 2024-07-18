@@ -2,9 +2,9 @@
 
 ### MEMBER:
 
-- Nguyễn Kiến Minh \_ SE171069 (Leader, Main Back-End Dev)
-- Lương Công Bằng \_ SE171033 (Back-End Dev, Main Front-End Dev)
-- Đoàn Đình Quang Trường \_ SE170593 (Front-End Dev)
+- Nguyễn Kiến Minh \_ SE171069 (Leader, Main Back-End Dev, UI designer)
+- Lương Công Bằng \_ SE171033 (Back-End Dev, Main Front-End Dev, UI designer)
+- Đoàn Đình Quang Trường \_ SE170593 (Front-End Dev, UI designer)
 - Nguyễn Trọng Phúc \_ SE171107((Front-End Dev)
 
 ## I. REQUIREMENT:
