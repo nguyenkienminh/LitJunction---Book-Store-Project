@@ -23,7 +23,7 @@ Lit Junction
 
 Admin and Customer
 
-### List all features your system can do, arrange the features in a specific classification:
+### List all features system:
 
 ### User:
 
